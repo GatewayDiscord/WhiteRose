@@ -382,5 +382,5 @@ async def purge(ctx,arg):
     channel=client.get_channel(765630153631596574)
     await channel.send(f"{ctx.message.author.mention} Purged {limit} messages")
 
-token="NzY0OTAzOTM1MzM2MTIwMzMw.bG9sIHllYWggdG__90YWxseQ"
+token="oof"
 client.run(token)
