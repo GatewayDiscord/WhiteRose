@@ -8,7 +8,10 @@ import requests
 import json
 from discord.ext import commands
 from discord.utils import get
+from datetime import datetime #new
 from discord.ext.commands import has_permissions, MissingPermissions
+
+__version__=2
 
 def base64it(text):
     text_bytes=text.encode('ascii')
@@ -27,6 +30,8 @@ async def on_ready():
     link= await channel.create_invite()
     await channel.send('Kindly !d bump whenever possible! Thanks!')
     await client.change_presence(activity=discord.Game(name=f'x!help on Gateway.\n{link}'))
+    with open('log.txt','w+') as file: #new
+        file.write(f'Booted up again at: {datetime.now()}') #new
 
 @client.event
 async def on_member_join(member):
@@ -377,5 +382,5 @@ async def purge(ctx,arg):
     channel=client.get_channel(765630153631596574)
     await channel.send(f"{ctx.message.author.mention} Purged {limit} messages")
 
-token="lol"
+token="NzY0OTAzOTM1MzM2MTIwMzMw.bG9sIHllYWggdG__90YWxseQ"
 client.run(token)
