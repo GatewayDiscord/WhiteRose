@@ -18,3 +18,5 @@ We chose to make it public because we wanted to be critised and we wanted people
 <b>4. Moderation: </b> Has every moderation feature we need.<br>
 <br>
 <b>ps the bot is privated and can't be added to another server. If you would like to use it for your own server, you would have to fork it and make the necessary changes.</b>
+<hr>
+Please note: this repository is public only for the sake of a CTF at our server. 
