@@ -19,4 +19,4 @@ We chose to make it public because we wanted to be critised and we wanted people
 <br>
 <b>ps the bot is privated and can't be added to another server. If you would like to use it for your own server, you would have to fork it and make the necessary changes.</b>
 <hr>
-Please note: this repository is public only for the sake of a CTF at our server. 
+Please note: this repository is public only for the sake of a CTF at our server for the challenge github leak. Remember that this is a discord bot repository. The only sensitive information here can be the hardcoded values. The flag is not in the form of gateway{} when you find it.
